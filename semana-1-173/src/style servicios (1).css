@@ -4,23 +4,23 @@ body{
 }
 
 .container{
-    width: 1200px;
+    width: 1200;
     background-color: #888888;
     height: 2000px;
     -ms-flex-item-align: center;
         align-self: center;
-    margin: 0px auto;
-    padding: 0 auto;
+    margin: 0 ;
+    padding: 0 ;
 }
 
 .header{
     background-color: aqua;
-    height: auto;
+    height: 200px;
     
 }
 
 .container-menu{
-    height: 60px;
+    height: 80px;
     background-color: antiquewhite;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -30,9 +30,10 @@ body{
 }
 .container-logo{
     width: 100%;
-    height: inherit;
+    height: 100%;
     background-color: azure;
     text-align: center;
+    bottom:100px;
 }
 
 .site-title{
@@ -41,8 +42,8 @@ body{
 }
 
 .container-imagen{
-    background-image: url('./bg.png');
-    height: 240px;
+    background-image: url('./Turismo.png');
+    height: 200px;
     /* margin-bottom: 20px; */
 }
 
@@ -73,26 +74,28 @@ body{
 }
 
 .section-1{
-    height: 500px;
+    height: 600px;
     background-color: rebeccapurple;
 
 }
 
 .section-2{
-    height: 500px;
+    
+
+    height: 600px;
     background-color: gainsboro;
 }
 
 .section-3{
-    height: 500px;
+    height: 600px;
     background-color: coral;
 }
 
 .footer{
-    height: 200px;
+    width: 1333px;;
+    height: 500px;
     background-color: yellowgreen;
-    bottom: 0px;
-    /* position: fixed; */
+    bottom: 20px;
     /* width: 1200px; */
 }
 
@@ -102,6 +105,7 @@ body{
     background: white;
     font-weight: bold;
     text-align: center;
+    font-size: 18px;
 }
 
 .col-3{
@@ -112,7 +116,8 @@ body{
     padding: -15px;
     margin-top: 5px;
     text-align: center;
-}
+ }
+
 .col-5{
     width: 19%;
     height: 470px;
@@ -120,6 +125,16 @@ body{
     margin: 5px 4px 0;
     text-align: center;
     background-color: rgb(255, 177, 148);
+}
+
+.col-6{
+    widows: 150%;
+    height: 500px;
+    background-color: rgb(yellowgreen);
+    display: inline-block;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .service-content{
@@ -138,6 +153,8 @@ body{
 .section-news > div:first-child{
     margin-bottom: 2px; 
 }
+
+
 .news{
     width: 100%;
     background-color: cadetblue;
@@ -150,6 +167,8 @@ body{
 .news > div:first-child{
     margin: 0 6px;
 }
+
+
 
 .news-data{
     width: 49%;
@@ -178,9 +197,18 @@ body{
 }
 
 
-.fa-ambulance.news-logo{
+.fa-plane.news-logo{
     padding: 0.25em 0;
 }
+
+.fa-hotel.news-logo{
+    padding: 0.25em 0;
+}
+
+.fa-bus.news-logo{
+    padding: 0.25em 0;
+}
+
 
 
 .news-url{
