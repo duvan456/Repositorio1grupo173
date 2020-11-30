@@ -4,23 +4,23 @@ body{
 }
 
 .container{
-    width: 1200px;
-    background-color: #888888;
+    width: 1200;
+    background-color: rgb(176, 176, 176);
     height: 2000px;
     -ms-flex-item-align: center;
         align-self: center;
-    margin: 0px auto;
-    padding: 0 auto;
+    margin: 0 ;
+    padding: 0 ;
 }
 
 .header{
     background-color: aqua;
-    height: auto;
+    height: 200px;
     
 }
 
 .container-menu{
-    height: 60px;
+    height: 80px;
     background-color: antiquewhite;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -30,9 +30,10 @@ body{
 }
 .container-logo{
     width: 100%;
-    height: inherit;
+    height: 100%;
     background-color: azure;
     text-align: center;
+    bottom:100px;
 }
 
 .site-title{
@@ -41,8 +42,8 @@ body{
 }
 
 .container-imagen{
-    background-image: url('./bg.png');
-    height: 240px;
+    background-image: url('./Turismo.png');
+    height: 200px;
     /* margin-bottom: 20px; */
 }
 
@@ -68,31 +69,33 @@ body{
 
 .image-text{
     margin: 0;
-    padding: 9% 0;
+    padding: 5% 0;
     text-align: center;
 }
 
 .section-1{
-    height: 500px;
+    height: 600px;
     background-color: rebeccapurple;
 
 }
 
 .section-2{
-    height: 500px;
+    
+
+    height: 600px;
     background-color: gainsboro;
 }
 
 .section-3{
-    height: 500px;
+    height: 600px;
     background-color: coral;
 }
 
 .footer{
-    height: 200px;
-    background-color: yellowgreen;
-    bottom: 0px;
-    /* position: fixed; */
+    width: 100%;
+    height: 400px;
+    background-color: rgb(33, 33, 33);
+    bottom: 20px;
     /* width: 1200px; */
 }
 
@@ -102,31 +105,52 @@ body{
     background: white;
     font-weight: bold;
     text-align: center;
+    font-size: 18px;
 }
 
 .col-3{
-    width: 33.08%;
-    height: 470px;
-    background-color: aquamarine;
+    width: 31.8308%;
+    height: 270px;
+    background-color: rgb(239, 149, 0);
     display: inline-block;
-    padding: -15px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+ }
+
+.padre-columnas{
+    text-align: center;
+    display: flex;
+}
+
+.col-5{
+    width: 25%;
+    height: 450px;
+    display: inline-block;
+    padding: 0px;
+    margin-right: 4px;
+    background-color: rgb(150, 200, 200);
+}
+
+.col-6{
+    width: 49%;
+    height: 353px;
+    color: white;
+    background-color: rgb(yellowgreen);
+    display: inline-block;
+    padding: 5px;
     margin-top: 5px;
     text-align: center;
 }
-.col-5{
-    width: 19%;
-    height: 470px;
-    display: inline-block;
-    margin: 5px 4px 0;
-    text-align: center;
-    background-color: rgb(255, 177, 148);
-}
 
 .service-content{
-    padding: 0.5em 0;
+    padding: 0 0;
 }
 .service-text{
-    padding: 10px;
+    padding: 20px;
     text-align: justify;
     bottom: 0;
 }
@@ -136,8 +160,10 @@ body{
 }
 
 .section-news > div:first-child{
-    margin-bottom: 2px; 
+    margin-bottom: 4px; 
 }
+
+
 .news{
     width: 100%;
     background-color: cadetblue;
@@ -148,13 +174,15 @@ body{
 }
 
 .news > div:first-child{
-    margin: 0 6px;
+    margin: 0 4px;
 }
 
+
+
 .news-data{
-    width: 49%;
+    width: 49.85%;
     height: 100%;
-    background-color: rebeccapurple;
+    background-color: rgb(125, 78, 36);
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; 
@@ -178,9 +206,18 @@ body{
 }
 
 
-.fa-ambulance.news-logo{
+.fa-plane.news-logo{
     padding: 0.25em 0;
 }
+
+.fa-hotel.news-logo{
+    padding: 0.25em 0;
+}
+
+.fa-bus.news-logo{
+    padding: 0.25em 0;
+}
+
 
 
 .news-url{
@@ -190,7 +227,7 @@ body{
 
 .news-url > a{
 
-    color: #ffffff; 
+    color: yellow; 
 }
 
 hr{
