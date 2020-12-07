@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <the-carousel></the-carousel>
-    <div class="container-fluid">
-      <the-api></the-api>
+    <div id="noticias">
+      <div class="container-fluid">
+        <the-api></the-api>
+      </div>
     </div>
     <div class="container-fluid">
       <div class="row justify-content-center mb-5">        
