@@ -39,35 +39,35 @@ export default {
         nombre : 'Oscar Jimenez' ,
         descripcion : "Ingeniero de petróleos, 26 años, sus pasatiempos son la fotografía y los videojuegos",
         rol : "Desarrollador Back end",
-        imagen : require('./assets/Oscar_opt.jpg')
+        image : require('./assets/Oscar_opt.jpg')
         },
                {
         codigo : 2 ,
         nombre : 'Duvan Ceron' ,
         descripcion : "Contador público, 22 años, su pasatiempo es viajar",
         rol : "Desarrollador Front end",
-        imagen : require('./assets/Duvane_opt.jpg')
+        image : require('./assets/Duvane_opt.jpg')
                },
         {
         codigo : 3 ,
         nombre : 'Felipe Pinto' ,
         descripcion : "Estudiante de ingeniería sanitaria, 20 años, su pasatiempo es jugar microfútbol",
         rol : "Desarrollador Front end",
-        imagen : require('./assets/Felipe_opt.jpg')
+        image : require('./assets/Felipe_opt.jpg')
         },
         {
         codigo : 4,
         nombre : 'Cindy Figuera' ,
         descripcion : "Ingeniera de sistemas, 39 años, su pasatiempo es jugar golosa",
         rol : "Desarrolladora Back end",
-        imagen : require('./assets/Cindy.jpg')
+        image : require('./assets/Cindy.jpg')
         },
         {
         codigo : 5 ,
         nombre : 'Wilder Erazo' ,
         descripcion : "Estudiante de ingeniería industrial, 25 años, su pasatiempo es jugar baloncesto",
         rol : "Desarrollador Back end",
-        imagen : require('./assets/Wilder_opt.jpg')
+        image : require('./assets/Wilder_opt.jpg')
         },
       ]
     }

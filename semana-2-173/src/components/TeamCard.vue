@@ -5,7 +5,7 @@
 
                 <div class="card text-white bg-dark">
                     <div class="d-flex justify-content-center p-2">
-                        <img :src= "member.imagen" alt="Fotografía" class="img-thumbnail">
+                        <img :src= "member.image" alt="Fotografía" class="img-thumbnail">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title col-sm-12 d-flex justify-content-center">{{ member.nombre}}</h5>
